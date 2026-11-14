@@ -6,4 +6,14 @@
   <url><loc>https://ai-ferma.github.io/poligon/abprod-v1.0.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://ai-ferma.github.io/poligon/artdir-v1_0_1.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-ferma.github.io/poligon/weld-ndt-v1.0.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/llmguard/sobesedovanie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/llmguard/slovar/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/agent-po/sobesedovanie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/agent-po/slovar/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/abprod/sobesedovanie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/abprod/slovar/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/artdir/sobesedovanie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/artdir/slovar/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/weld-ndt/sobesedovanie/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-ferma.github.io/poligon/weld-ndt/slovar/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -30,3 +30,24 @@
 Диагностика слабых мест на входе (бесплатно), затем лестница уровней
 L0–L7: зачёт уровня (85 %) открывает следующий. Ошибки разбираются сразу:
 почему вариант — ловушка, а не просто «неверно».
+
+## Вопросы собеседования с ответами (HTML-статьи)
+
+Готовые формулировки вопросов с сильными ответами и разбором ловушек —
+формат «вопрос → прямой ответ → почему остальные варианты ловушки».
+
+- [Безопасность LLM: 24 вопроса собеседования с ответами](https://ai-ferma.github.io/poligon/llmguard/sobesedovanie/)
+- [ИИ-агенты: 24 вопроса собеседования с ответами](https://ai-ferma.github.io/poligon/agent-po/sobesedovanie/)
+- [A/B-тесты и продакт-аналитика: 24 вопроса с ответами](https://ai-ferma.github.io/poligon/abprod/sobesedovanie/)
+- [Выставочный дизайн: 21 вопрос собеседования с ответами](https://ai-ferma.github.io/poligon/artdir/sobesedovanie/)
+- [Сварочное производство и НК: 24 вопроса с ответами](https://ai-ferma.github.io/poligon/weld-ndt/sobesedovanie/)
+
+## Словари терминов простыми словами (HTML-статьи)
+
+Каждый термин: определение, объяснение простыми словами, когда применяется.
+
+- [Словарь по безопасности LLM: 70 терминов](https://ai-ferma.github.io/poligon/llmguard/slovar/)
+- [Словарь по ИИ-агентам: 61 термин](https://ai-ferma.github.io/poligon/agent-po/slovar/)
+- [Словарь по A/B-тестам: 54 термина](https://ai-ferma.github.io/poligon/abprod/slovar/)
+- [Словарь по выставочному дизайну: 46 терминов](https://ai-ferma.github.io/poligon/artdir/slovar/)
+- [Словарь по сварке и неразрушающему контролю: 72 термина](https://ai-ferma.github.io/poligon/weld-ndt/slovar/)
