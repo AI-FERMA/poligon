@@ -16,6 +16,7 @@
 - [Штурман · продакт-аналитика и A/B-эксперименты](https://ai-ferma.github.io/poligon/abprod-v1.0.html): доли и шум, SRM и подглядывание, CUPED и квазиэксперименты, OEC и дерево метрик, holdout. 6 уровней, 120 заданий, 54 термина, 12 боссов.
 - [Арт-директор · выставочный дизайн](https://ai-ferma.github.io/poligon/artdir-v1_0_1.html): стенд как продукт — план, объём и конструктив, сообщение и свет, материалы и смета. 7 уровней, 121 задание, 46 терминов.
 - [Сварщик-контролёр · сварочное производство](https://ai-ferma.github.io/poligon/weld-ndt-v1.0.html): технологии сварки, дефекты и неразрушающий контроль, аттестация НАКС, система качества. 6 уровней, 311 заданий, 72 термина.
+- [Щит · классический AppSec и безопасная разработка](https://ai-ferma.github.io/poligon/appsec-v1.0.html): XSS и инъекции, CSRF и заголовки, пароли и сессии, OAuth и MFA, авторизация и IDOR, threat modeling, SAST/DAST/SCA, CI/CD и секреты, криптография и конфигурация, инциденты и программа. 6 уровней, 161 задание, 45 терминов, 6 боссов.
 
 ## Как цитировать
 
@@ -41,6 +42,7 @@ L0–L7: зачёт уровня (85 %) открывает следующий. �
 - [A/B-тесты и продакт-аналитика: 24 вопроса с ответами](https://ai-ferma.github.io/poligon/abprod/sobesedovanie/)
 - [Выставочный дизайн: 21 вопрос собеседования с ответами](https://ai-ferma.github.io/poligon/artdir/sobesedovanie/)
 - [Сварочное производство и НК: 24 вопроса с ответами](https://ai-ferma.github.io/poligon/weld-ndt/sobesedovanie/)
+- [Безопасная разработка (AppSec): 24 вопроса собеседования с ответами](https://ai-ferma.github.io/poligon/appsec/sobesedovanie/)
 
 ## Словари терминов простыми словами (HTML-статьи)
 
@@ -51,3 +53,4 @@ L0–L7: зачёт уровня (85 %) открывает следующий. �
 - [Словарь по A/B-тестам: 54 термина](https://ai-ferma.github.io/poligon/abprod/slovar/)
 - [Словарь по выставочному дизайну: 46 терминов](https://ai-ferma.github.io/poligon/artdir/slovar/)
 - [Словарь по сварке и неразрушающему контролю: 72 термина](https://ai-ferma.github.io/poligon/weld-ndt/slovar/)
+- [Словарь по безопасности веб-приложений: 45 терминов](https://ai-ferma.github.io/poligon/appsec/slovar/)
