@@ -675,10 +675,13 @@ D.LEVELS.forEach(function(L){LEVEL_BY_ID[L.id]=L;L.units=D.UNITS.filter(function
   L.units.forEach(function(u){UNIT_BY_ID[u.id]=u;if(u.practice)regItem(u.practice,{level:L.id,unit:u.id});(u.test||[]).forEach(function(q){regItem(q,{level:L.id,unit:u.id});});});});
 (D.DIAG||[]).forEach(function(q){regItem(q,{level:q.level||'L1'});});
 function unitSteps(u){
-  var steps=[u.layers?{t:'layers',h:u.title,unit:u,fr:'Суть · четыре слоя',anchor:u.anchor}:{t:'theory',h:u.title,txt:u.concept,fr:'Суть',anchor:u.anchor}];
+  /* Сначала учим, потом проверяем: теория (concept + points) идёт до слоёв с вопросами «Проверь себя» и до первого вопроса теста */
+  var steps=[];
+  if(u.concept)steps.push({t:'theory',h:u.title,txt:u.concept,fr:'Суть',anchor:u.anchor});
+  (u.points||[]).forEach(function(p,i){steps.push({t:'theory',h:p.h,txt:p.t,rule:(u.layers&&u.layers.rules&&u.layers.rules[i])||null});});
+  if(u.layers)steps.push({t:'layers',h:u.title,unit:u,fr:'Суть · четыре слоя',anchor:u.anchor});
   var pool=(u.test||[]).slice();
   if(pool.length>1)steps.push({t:'item',item:pool.shift(),pre:true});
-  (u.points||[]).forEach(function(p,i){steps.push({t:'theory',h:p.h,txt:p.t,rule:(u.layers&&u.layers.rules&&u.layers.rules[i])||null});});
   if(u.practice)steps.push({t:'item',item:u.practice});
   pool.forEach(function(q){steps.push({t:'item',item:q});});
   if(u.framework)steps.push({t:'theory',h:'Запомни каркас',txt:u.framework,fr:'Итог юнита',anchor:u.anchor});
